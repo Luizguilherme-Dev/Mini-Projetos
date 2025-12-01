@@ -1,61 +1,77 @@
 📌 Mini Projetos em JavaScript
-Este repositório contém 4 mini projetos desenvolvidos para praticar lógica de programação, condicionais, manipulação de dados e interação com o usuário. São projetos simples, porém ideais para estudos e portfolio.
 
------
+Este repositório contém uma coleção de mini projetos desenvolvidos com foco em prática de lógica, DOM, APIs e interatividade.
+São projetos simples, rápidos e perfeitos para estudo e portfólio.
 
-🚀 Projetos
-1. Pedra, Papel e Tesoura
+🚀 Projetos Inclusos
+🎮 1. Pedra, Papel e Tesoura
 
-Um jogo simples contra o computador, com seleção aleatória e resultado final.
+Jogo clássico contra o computador com seleção aleatória.
 
-Funções principais:
-Escolha do jogador
-Escolha automática da máquina
-Verificação do vencedor
+Funcionalidades:
+Jogada do usuário
+Jogada aleatória da máquina
+Resultado exibido na tela
 
---------
+👤 2. Verificador de Maior Idade
 
-2. 👤 Verificador de Maior Idade
+Informa se a pessoa é maior ou menor de idade a partir do número digitado.
+Conceitos trabalhados:
+Entrada do usuário
+Condicionais
 
-Verifica se uma pessoa é maior ou menor de idade a partir de um número informado.
-Recursos usados:
-if/else
-tratamento de entrada
+🔐 3. Validador de Senha
 
-----------
+Verifica se a senha está dentro das regras definidas.
 
-3. 🔐 Validador de Senha
-   
-
-Valida uma senha conforme regras de segurança.
-Validação feita:
+Validações:
 Tamanho mínimo
 Letras e números
-Senha válida ou inválida
+Mensagem de erro ou sucesso
 
---------
+📊 4. Média Escolar
 
-4. 📊 Média Escolar
+Calcula a média do aluno e retorna:
 
-Calcula a média entre notas e determina se o aluno:
-Foi aprovado
-Está em recuperação
-Foi reprovado
-Inclui lógica:
+✔ Aprovado
+⚠ Recuperação
+❌ Reprovado
+
+Com lógica:
 Soma de valores
 Condições encadeadas
 
--------
+🧱 5. Task Board 
 
-🛠️ Tecnologias utilizadas
+
+Recursos:
+Adição de tarefas
+Arrastar e soltar entre colunas
+Organização visual
+
+🗺️ 6. Buscador de CEP (ViaCEP API)
+
+Busca informações de endereço a partir de um CEP.
+
+Funcionalidades:
+Consumo de API real (ViaCEP)
+Exibição de cidade, bairro e estado
+Validação de entrada
+
+💱 7. Conversor de Moedas (API)
+
+Conversor simples entre BRL e USD com cotação atual.
+Conceitos aplicados:
+Consumo de API
+Cálculo com valor digitado
+
+Manipulação de DOM
+
+🛠️ Tecnologias Utilizadas
+
+HTML
+CSS
 JavaScript
-
---------
-
-Objetivo do Repositório
-
-Treinar e desenvolver:
-lógica de programação
-práticas de JavaScript
-projetos pequenos e objetivos
-organização de código
+Fetch API
+DOM
+Lógica de programação
