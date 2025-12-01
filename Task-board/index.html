@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task Board</h1>
+
+    <div class="columns">
+        <div class="column" data-status="todo">
+            <h2>A Fazer</h2>
+            <div class="task-list"></div>
+        </div>
+
+        <div class="column" data-status="progress">
+            <h2>Em Progresso</h2>
+            <div class="task-list"></div>
+        </div>
+
+        <div class="column" data-status="done">
+            <h2>Concluído</h2>
+            <div class="task-list"></div>
+        </div>
+    </div>
+
+    <div class="add-box">
+        <input type="text" id="task-input" placeholder="Digite uma tarefa">
+        <button id="add-btn">Adicionar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
